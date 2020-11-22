@@ -53,3 +53,12 @@ def Histogram_Computation(img):
     # print(sum)
     # print(Histogram)
     return ten_bins
+
+grey_img = gray_level_image(img)
+thumbnails_image("C:/Users/islamAmar/PycharmProjects/pythonProject/images")
+print("----------");
+print("Image 10-bin image histogram :")
+Histogram_GrayScale = Histogram_Computation(grey_img)
+print(Histogram_GrayScale)
+for i in range(0,len(Histogram_GrayScale)):
+		print("Histogram[",i,"]: ", Histogram_GrayScale[i])
