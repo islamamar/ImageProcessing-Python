@@ -1,3 +1,6 @@
+#Author:Islam Ayman Amar
+#date:22/11/2020
+#homework-4: Imageprocessing
 import ImageProcessing as IP
 from PIL import Image
 

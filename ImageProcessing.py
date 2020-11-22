@@ -1,3 +1,7 @@
+#Author:Islam Ayman Amar
+#date:22/11/2020
+#homework-4: Imageprocessing
+
 from PIL import Image
 import numpy as np
 import glob, os
